@@ -1,0 +1,503 @@
+
+<div class="row" style="padding:20px; margin-top:45px;">
+
+  <div class="col-md-12" style="margin-left:0px; padding-left: 0px">
+
+
+
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Character Information</h3>
+            </div>
+            <div class="panel-body">
+              <form [formGroup]="charCreation">
+                <div class="col-md-12" style="margin-top:45px;">
+
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="form-group">
+                      <label for="charName">Character Name</label>
+                      <input type="text" id="charName" formControlName="charName" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="form-group">
+                      <label for="charImage">Character Image</label>
+                      <input type="text" id="charImage" formControlName="charImage" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="form-group">
+                      <label for="charRank">Rank</label>
+                      <input type="text" id="charRank" formControlName="charRank" class="form-control">
+
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="form-group">
+                      <label for="charStars">Stars</label>
+                      <input type="text" id="charStars" formControlName="charStars" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="form-group">
+                      <label for="charRole">Role</label>
+                      <input type="text" id="charRole" formControlName="charRole" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="form-group">
+                      <label for="magicChar">Add 1 Magic</label>
+                      <input type="text" id="magicChar" formControlName="magicChar" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="form-group">
+                      <label for="levelLearnedMagic">Level Learned Magic #1</label>
+                      <input type="text" id="levelLearnedMagic" formControlName="levelLearnedMagic" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="form-group">
+                      <label for="skillChar">Add 1 Skill</label>
+                      <input type="text" id="skillChar" formControlName="skillChar" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="form-group">
+                      <label for="levelLearnedSkill">Level Learned Skill #1</label>
+                      <input type="text" id="levelLearnedSkill" formControlName="levelLearnedSkill" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="form-group">
+                      <label for="burst">Burst</label>
+                      <input type="text" id="burst" formControlName="burst" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="form-group">
+                      <label for="tReward">Trust Reward</label>
+                      <input type="text" id="tReward" formControlName="tReward" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="form-group">
+                      <label for="tRewardType">Trust Reward Type</label>
+                      <input type="text" id="tRewardType" formControlName="tRewardType" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-md-offset-3">
+
+                      <div class="input-group">
+                        <div class="col-md-2">
+                          <label for="axeUse">Axes
+                          <input type="checkBox" id="axeUse" formControlName="axeUse">
+                          </label>
+                        </div>
+
+                        <div class="col-md-2">
+                        <label for="bowUse">Bows
+                          <input type="checkBox" id="bowUse" formControlName="bowUse">
+                        </label>
+                        </div>
+
+                          <div class="col-md-2">
+                        <label for="daggerUser">Daggers
+                          <input type="checkBox" id="daggerUser" formControlName="daggerUse">
+                        </label>
+                          </div>
+
+                        <div class="col-md-2">
+                        <label for="fistsUse">Fists
+                          <input type="checkBox" id="fistsUse" formControlName="fistsUse">
+                        </label>
+                        </div>
+
+                        <div class="col-md-2">
+                        <label for="greatSwordUse">Great Swords
+                          <input type="checkBox" id="greatSwordUse" formControlName="greatSwordUse">
+                        </label>
+                        </div>
+
+                        <div class="col-md-2">
+                        <label for="gunUse">Guns
+                          <input type="checkBox" id="gunUse" formControlName="gunUse">
+                        </label>
+                        </div>
+
+                        <div class="col-md-2">
+                        <label for="hammerUse">Hammers
+                          <input type="checkBox" id="hammerUse" formControlName="hammerUse">
+                        </label>
+                        </div>
+
+                        <div class="col-md-2">
+                        <label for="harpUse">Harps
+                          <input type="checkBox" id="harpUse" formControlName="harpUse">
+                        </label>
+                        </div>
+
+                        <div class="col-md-2">
+                        <label for="katanaUse">Katanas
+                          <input type="checkBox" id="katanaUse" formControlName="katanaUse">
+                        </label>
+                        </div>
+
+                         <div class="col-md-2">
+                          <label for="maceUse">Maces
+                            <input type="checkBox" id="maceUse" formControlName="maceUse">
+                          </label>
+                         </div>
+
+                        <div class="col-md-2">
+                          <label for="rodUse">Rods
+                            <input type="checkBox" id="rodUse" formControlName="rodUse">
+                          </label>
+                        </div>
+
+                        <div class="col-md-2">
+                          <label for="spearUse">Spears
+                            <input type="checkBox" id="spearUse" formControlName="spearUse">
+                          </label>
+                        </div>
+
+                        <div class="col-md-2">
+                          <label for="staveUse">Staves
+                            <input type="checkBox" id="staveUse" formControlName="staveUse">
+                          </label>
+                        </div>
+
+                        <div class="col-md-2">
+                          <label for="swordUse">Swords
+                            <input type="checkBox" id="swordUse" formControlName="swordUse">
+                          </label>
+                        </div>
+
+                        <div class="col-md-2">
+                          <label for="throwingUse">Throwing
+                            <input type="checkBox" id="throwingUse" formControlName="throwingUse">
+                          </label>
+                        </div>
+
+                        <div class="col-md-2">
+                          <label for="whipUse">Whips
+                            <input type="checkBox" id="whipUse" formControlName="whipUse">
+                          </label>
+                        </div>
+
+
+                    </div>
+
+                  </div>
+
+                  <!--<div class="col-md-6 col-md-offset-3">-->
+                    <!--<div class="form-group">-->
+
+                      <!--<ss-multiselect-dropdown [options]="myOptions"></ss-multiselect-dropdown>-->
+                    <!--</div>-->
+                  <!--</div>-->
+
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <button class="btn btn-primary" (click)="createCharacter()">Create</button>
+                    </div>
+                  </div>
+
+
+                </div>
+
+
+
+              </form>
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Add Magic</h3>
+        </div>
+        <div class="panel-body">
+          <form [formGroup]="magicCreation">
+            <div class="col-md-12" style="margin-top:45px;">
+
+              <!--<div class="col-md-6 col-md-offset-3">-->
+                <!--<div class="form-group">-->
+                  <!--<div class="dropdown" dropdown>-->
+                    <!--<input type="button" id="magicImage" class="form-control" dropdown-open formControlName="magicImage" value="{{selectedMagicImage}}"/>-->
+                    <!--<ul class="dropdown-menu" style="width: 100%; padding:10px;">-->
+                      <!--<app-magicImage-list-item *ngFor="let magicItem of magicArray; let i = index" [magic]="magicItem" [magicId]="i"><img src="{{magicItem.magicImage}}" alt=""></app-magicImage-list-item>-->
+                    <!--</ul>-->
+                  <!--</div>-->
+                  <!--</div>-->
+                <!--</div>-->
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="charName">Magic Image</label>
+
+                  <input type="text" id="magicImage" formControlName="magicImage" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="charRank">Magic Name</label>
+                  <input type="text" id="magicName" formControlName="magicName" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="charStars">Magic Desc</label>
+                  <input type="text" id="magicDesc" formControlName="magicDesc" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="magicMP">Magic MP</label>
+                  <input type="text" id="magicMP" formControlName="magicMP" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="magicEquip">Equipment/Esper</label>
+                  <input type="text" id="magicEquip" formControlName="magicEquip" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="magicMateria">Ability Materia</label>
+                  <input type="text" id="magicMateria" formControlName="magicMateria" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <button class="btn btn-primary" (click)="createMagic()">Create</button>
+                </div>
+              </div>
+
+
+            </div>
+
+
+
+          </form>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Add Skills</h3>
+        </div>
+        <div class="panel-body">
+          <form [formGroup]="skillCreation">
+            <div class="col-md-12" style="margin-top:45px;">
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="skillImage">Skill Image</label>
+                  <input type="text" id="skillImage" formControlName="skillImage" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="skillName">Skill Name</label>
+                  <input type="text" id="skillName" formControlName="skillName" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="skillDesc">Skill Desc</label>
+                  <input type="text" id="skillDesc" formControlName="skillDesc" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="skillMP">Skill MP</label>
+                  <input type="text" id="skillMP" formControlName="skillMP" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="skillEquip">Equipment/Esper</label>
+                  <input type="text" id="skillEquip" formControlName="skillEquip" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="skillMateria">Ability Materia</label>
+                  <input type="text" id="skillMateria" formControlName="skillMateria" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <button class="btn btn-primary" (click)="createSkill()">Create</button>
+                </div>
+              </div>
+
+
+            </div>
+
+
+
+          </form>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Add Skill to Character</h3>
+        </div>
+        <div class="panel-body">
+          <form [formGroup]="skillAddToChar">
+            <div class="col-md-12" style="margin-top:45px;">
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="charAddToName">Character Name</label>
+                  <input type="text" id="charAddToName" formControlName="charAddToName" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="skillToAddName">Skill Name</label>
+                  <input type="text" id="skillToAddName" formControlName="skillToAddName" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="levelLearned">Level Learned</label>
+                  <input type="text" id="levelLearned" formControlName="levelLearned" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="starLearned">Star Learned</label>
+                  <input type="text" id="starLearned" formControlName="starLearned" class="form-control">
+                </div>
+              </div>
+
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <button class="btn btn-primary" (click)="addSkillToChar()">Add</button>
+                </div>
+              </div>
+
+
+            </div>
+
+
+
+          </form>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Add Magic to Character</h3>
+        </div>
+        <div class="panel-body">
+          <form [formGroup]="magicAddToChar">
+            <div class="col-md-12" style="margin-top:45px;">
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="charAddToNameMagic">Character Name</label>
+                  <input type="text" id="charAddToNameMagic" formControlName="charAddToNameMagic" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="magicToAddName">Skill Name</label>
+                  <input type="text" id="magicToAddName" formControlName="magicToAddName" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="levelLearnedMagicAdd">Level Learned</label>
+                  <input type="text" id="levelLearnedMagicAdd" formControlName="levelLearnedMagicAdd" class="form-control">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                  <label for="starLearnedMagic">Star Learned</label>
+                  <input type="text" id="starLearnedMagic" formControlName="starLearnedMagic" class="form-control">
+                </div>
+              </div>
+
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <button class="btn btn-primary" (click)="addMagicToChar()">Add</button>
+                </div>
+              </div>
+
+
+            </div>
+
+
+
+          </form>
+
+
+        </div>
+      </div>
+    </div>
+
+      </div>
+
+
+
+
+    </div>

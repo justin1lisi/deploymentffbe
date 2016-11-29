@@ -1,0 +1,108 @@
+<td style="width:80px;"><img src="{{character.image}}" alt=""></td>
+<td><span (click)="modal.open(); testOutput(charID)">{{character.charName}}</span></td>
+<td>{{character.ranking}}</td>
+<td>{{character.stars}}</td>
+<td>{{character.role}}</td>
+<td>{{character.burst}}</td>
+<td>
+  <p>
+    <span *ngIf="character.dagger"><img src="http://cdn.wiki.famitsu.com/theme/famitsu/ffbraveexvius/%E8%A3%85%E5%82%99%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3/%E7%9F%AD%E5%89%A3.png" style="width:32px;"></span>
+    <span *ngIf="character.sword"><img src="http://cdn.wiki.famitsu.com/theme/famitsu/ffbraveexvius/%E8%A3%85%E5%82%99%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3/%E7%89%87%E6%89%8B%E5%89%A3.png" style="width:32px;"></span>
+    <span *ngIf="character.greatSword"><img src="http://cdn.wiki.famitsu.com/theme/famitsu/ffbraveexvius/%E8%A3%85%E5%82%99%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3/%E4%B8%A1%E6%89%8B%E5%89%A3.png" style="width:32px;"></span>
+    <span *ngIf="character.katana"><img src="http://cdn.wiki.famitsu.com/theme/famitsu/ffbraveexvius/%E8%A3%85%E5%82%99%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3/%E5%88%80.png" style="width:32px;"></span>
+    <span *ngIf="character.staves"><img src="http://cdn.wiki.famitsu.com/theme/famitsu/ffbraveexvius/%E8%A3%85%E5%82%99%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3/%E6%9D%96.png" style="width:32px;"></span>
+    <span *ngIf="character.rods"><img src="http://cdn.wiki.famitsu.com/theme/famitsu/ffbraveexvius/%E8%A3%85%E5%82%99%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3/%E3%83%AD%E3%83%83%E3%83%89.png" style="width:32px;"></span>
+    <span *ngIf="character.bows"><img src="http://cdn.wiki.famitsu.com/theme/famitsu/ffbraveexvius/%E8%A3%85%E5%82%99%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3/%E5%BC%93.png" style="width:32px;"></span>
+    <span *ngIf="character.axes"><img src="http://cdn.wiki.famitsu.com/theme/famitsu/ffbraveexvius/%E8%A3%85%E5%82%99%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3/%E6%96%A7.png" style="width:32px;"></span>
+    <span *ngIf="character.hammers"><img src="http://cdn.wiki.famitsu.com/theme/famitsu/ffbraveexvius/%E8%A3%85%E5%82%99%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3/%E7%89%87%E6%89%8B%E5%89%A3.png" style="width:32px;"></span>
+    <span *ngIf="character.spears"><img src="http://cdn.wiki.famitsu.com/theme/famitsu/ffbraveexvius/%E8%A3%85%E5%82%99%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3/%E6%A7%8D.png" style="width:32px;"></span>
+    <span *ngIf="character.harps"><img src="http://cdn.wiki.famitsu.com/theme/famitsu/ffbraveexvius/%E8%A3%85%E5%82%99%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3/%E7%AB%AA%E7%90%B4.png" style="width:32px;"></span>
+    <span *ngIf="character.whips"><img src="http://cdn.wiki.famitsu.com/theme/famitsu/ffbraveexvius/%E8%A3%85%E5%82%99%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3/%E9%9E%AD.png" style="width:32px;"></span>
+    <span *ngIf="character.throwing"><img src="http://cdn.wiki.famitsu.com/theme/famitsu/ffbraveexvius/%E8%A3%85%E5%82%99%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3/%E7%89%87%E6%89%8B%E5%89%A3.png" style="width:32px;"></span>
+    <span *ngIf="character.guns"><img src="http://cdn.wiki.famitsu.com/theme/famitsu/ffbraveexvius/%E8%A3%85%E5%82%99%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3/%E9%8A%83.png" style="width:32px;"></span>
+    <span *ngIf="character.maces"><img src="http://cdn.wiki.famitsu.com/theme/famitsu/ffbraveexvius/%E8%A3%85%E5%82%99%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3/%E3%83%95%E3%83%AC%E3%82%A4%E3%83%AB.png" style="width:32px;"></span>
+    <span *ngIf="character.fists"><img src="http://cdn.wiki.famitsu.com/theme/famitsu/ffbraveexvius/%E8%A3%85%E5%82%99%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3/%E7%89%87%E6%89%8B%E5%89%A3.png" style="width:32px;"></span>
+  </p>
+</td>
+<td><span><strong>{{character.trustRewardType}}: </strong></span>{{character.trustReward}}</td>
+
+
+<modal #modal [cssClassContent]="['testModal']" [size]="lg">
+  <modal-header [show-close]="true" >
+    <h4 class="modal-title">{{character.charName}}<i class="fa fa-star" style="margin-left:8px;" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></h4>
+  </modal-header>
+  <modal-body>
+    <ul class="nav nav-tabs" role="tablist" >
+      <li role="presentation" class="active"><a href="#{{statIndex}}" aria-controls="stats" role="tab" data-toggle="tab">Stats</a></li>
+      <li role="presentation"><a href='#{{magicIndex}}' aria-controls="magic" role="tab" data-toggle="tab">Magic</a></li>
+      <li role="presentation"><a href="#{{skillIndex}}" aria-controls="skills" role="tab" data-toggle="tab">Skills</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+
+      <div role="tabpanel" class="tab-pane active stats" id="{{statIndex}}">
+        <table class="table table-bordered" style="margin-top:12px;">
+          <thead>
+            <tr>
+              <th>Stars</th>
+              <th>Max Level</th>
+              <th>HP</th>
+              <th>MP</th>
+              <th>Attack</th>
+              <th>Defense</th>
+              <th>Magic</th>
+              <th>Spirit</th>
+            </tr>
+          </thead>
+            <tbody>
+              <tr *ngFor="let statItem of currentStatsArray; let i = index">
+                <td>{{statItem.stars}}</td>
+                <td>{{statItem.maxLevel}}</td>
+                <td>{{statItem.hp}}<p style="color:lawngreen">+{{statItem.hpAdd}}</p></td>
+                <td>{{statItem.mp}}<p style="color:lawngreen">+{{statItem.mpAdd}}</p></td>
+                <td>{{statItem.attack}}<p style="color:lawngreen">+{{statItem.attackAdd}}</p></td>
+                <td>{{statItem.defense}}<p style="color:lawngreen">+{{statItem.defenseAdd}}</p></td>
+                <td>{{statItem.magStat}}<p style="color:lawngreen">+{{statItem.magicAdd}}</p></td>
+                <td>{{statItem.spirit}}<p style="color:lawngreen">+{{statItem.spiritAdd}}</p></td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+
+      <div role="tabpanel" class="tab-pane" id="{{magicIndex}}">
+
+        <div class="col-md-12" style="margin-top:12px;">
+          <ul class="list-group">
+            <li class="list-group-item"  *ngFor="let magicItem of currentMagicArray; let i = index" style="background: #222">
+
+          <p>Level Learned: {{magicItem.levelLearned}}</p>
+              <p><img src="{{magicItem.magic.magicImage}}" alt="" style="width:42px;">{{magicItem.magic.magicName}}</p>
+              <p>{{magicItem.magic.magicDesc}}</p>
+
+            </li>
+            </ul>
+        </div>
+
+      </div>
+
+
+      <div role="tabpanel" class="tab-pane" id="{{skillIndex}}">
+
+        <div class="col-md-12" style="margin-top:12px;">
+          <ul class="list-group">
+            <li class="list-group-item"  *ngFor="let skillItem of currentSkillArray; let i = index" style="background: #222">
+                          <p>Level Learned: {{skillItem.levelLearned}} | Star Learned: {{skillItem.starLearned}}</p>
+                          <p><img src="{{skillItem.skill.skillImage}}" alt="" style="width:42px;">{{skillItem.skill.skillName}}</p>
+                          <p>{{skillItem.skill.skillDesc}}</p>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </modal-body>
+  <modal-footer>
+  </modal-footer>
+</modal>

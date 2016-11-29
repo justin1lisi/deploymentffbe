@@ -1,0 +1,135 @@
+
+
+<!-- Sidebar -->
+<div id="sidebar-wrapper">
+  <ul class="sidebar-nav" *ngIf="mainMenu">
+    <li class="sidebar-brand hvr-fade">
+      <a href="#">
+        FFBE - Japan (English Wiki)
+      </a>
+    </li>
+    <li class="hvr-fade">
+      <a href="index.php"><i style="margin-right:8px" class="fa fa-home" aria-hidden="true"></i>Home</a>
+    </li>
+    <li class="hvr-fade">
+      <a href="#"><i style="margin-right:8px" class="fa fa-money" aria-hidden="true"></i>Units</a>
+    </li>
+    <li class="hvr-fade">
+      <a (click)="catalogInv()"><i style="margin-right:8px" class="fa fa-archive" aria-hidden="true"></i>Items</a>
+    </li>
+    <li class="hvr-fade">
+      <a (click)="catalogNav()" style="cursor: pointer"><i style="margin-right:8px"  class="fa fa-image" aria-hidden="true"></i>World</a>
+    </li>
+    <li class="hvr-fade">
+      <a href="#"><i style="margin-right:8px" class="fa fa-user" aria-hidden="true"></i>Vortex Levels</a>
+    </li>
+    <li class="hvr-fade">
+      <a href="#"><i style="margin-right:8px" class="fa fa-calendar" aria-hidden="true"></i>Guides</a>
+    </li>
+    <li class="hvr-fade">
+      <a href="#"><i style="margin-right:8px" class="fa fa-flag" aria-hidden="true"></i>Discussion Boards</a>
+    </li>
+
+
+  </ul>
+
+  <ul class="sidebar-nav" *ngIf="catalogMenu">
+    <li class="sidebar-brand hvr-fade">
+      <a href="#">
+        FFBE - Japan (English Wiki)
+      </a>
+    </li>
+    <li class="hvr-fade" routerLinkActive="hvr-fade-active-link">
+      <a [routerLink]="['catalog/products']"><i style="margin-right:8px" class="fa fa-home" aria-hidden="true"></i>6 Star Characters</a>
+    </li>
+    <li class="hvr-fade" routerLinkActive="hvr-fade-active-link">
+      <a [routerLink]="['catalog/categories']"><i style="margin-right:8px"  class="fa fa-image" aria-hidden="true"></i>Character Rankings</a>
+    </li>
+    <li class="hvr-fade" routerLinkActive="hvr-fade-active-link">
+      <a [routerLink]="['catalog/suppliers']"><i style="margin-right:8px" class="fa fa-user" aria-hidden="true"></i>Suppliers</a>
+    </li>
+    <li class="hvr-fade" routerLinkActive="hvr-fade-active-link">
+      <a [routerLink]="['catalog/brands']"><i style="margin-right:8px" class="fa fa-calendar" aria-hidden="true"></i>Brands</a>
+    </li>
+    <li class="hvr-fade">
+      <a href="#"><i style="margin-right:8px" class="fa fa-flag" aria-hidden="true"></i>Rounding Rules</a>
+    </li>
+    <li class="hvr-fade">
+      <a (click)="catalogNav()"><i style="margin-right:8px" class="fa fa-flag" aria-hidden="true"></i>Main Menu</a>
+    </li>
+
+  </ul>
+
+  <ul class="sidebar-nav" *ngIf="inventoryMenu">
+    <li class="sidebar-brand hvr-fade">
+      <a href="#">
+        FFBE - Japan (English Wiki)
+      </a>
+    </li>
+    <li class="hvr-fade" routerLinkActive="hvr-fade-active-link">
+      <a [routerLink]="['catalog/products']"><i style="margin-right:8px" class="fa fa-home" aria-hidden="true"></i>Purchase Orders</a>
+    </li>
+    <li class="hvr-fade">
+      <a href="#"><i style="margin-right:8px" class="fa fa-money" aria-hidden="true"></i>Supplier Shipments</a>
+    </li>
+    <li class="hvr-fade" routerLinkActive="hvr-fade-active-link">
+      <a [routerLink]="['inventory/adjustments']"><i style="margin-right:8px"  class="fa fa-image" aria-hidden="true"></i>Adjustments to Inventory</a>
+    </li>
+    <li class="hvr-fade">
+      <a (click)="catalogMain()"><i style="margin-right:8px" class="fa fa-flag" aria-hidden="true"></i>Main Menu</a>
+    </li>
+
+  </ul>
+
+  <!--<ul class="sidebar-nav2" style="position:absolute !important; bottom:10px !important;">-->
+
+    <!--<li class="" style="margin-bottom:8px;" onclick="hideMenu()">-->
+      <!--<a id="menu-toggle"  style="border-radius:0;" class="menu-toggle btn btn-action2"><i class="fa fa-arrow-left" style="margin-right:8px" aria-hidden="true"></i>Hide Menu</a>-->
+    <!--</li>-->
+
+    <!--<li class="" style="margin-bottom:8px;">-->
+      <!--<a (click)="onLogout()" style="border-radius:0;" class="btn btn-add"><i class="fa fa-puzzle-piece" style="margin-right:8px" aria-hidden="true"></i>Integrations</a>-->
+    <!--</li>-->
+    <!--<li class="">-->
+      <!--<a href="#" id="contact" style="border-radius:0;" class="btn btn-blue"><i class="fa fa-info-circle" style="margin-right:8px;" aria-hidden="true"></i>Contact Support</a>-->
+    <!--</li>-->
+
+  <!--</ul>-->
+
+</div>
+<!-- /#sidebar-wrapper -->
+
+<!-- Sidebar Catalog -->
+<div id="sidebar-wrapper-products" style="display:none;">
+  <ul class="sidebar-nav">
+    <li class="sidebar-brand hvr-fade">
+      <a href="#">
+        FFBE - Japan (English Wiki)
+      </a>
+    </li>
+    <li class="hvr-fade">
+      <a href="#"><i style="margin-right:8px" class="fa fa-home" aria-hidden="true"></i>Products</a>
+    </li>
+    <li class="hvr-fade">
+      <a href="brands.php"><i style="margin-right:8px" class="fa fa-money" aria-hidden="true"></i>Brands</a>
+    </li>
+    <li class="hvr-fade">
+      <a href="suppliers.php"><i style="margin-right:8px" class="fa fa-image" aria-hidden="true"></i>Suppliers</a>
+    </li>
+    <li class="hvr-fade">
+      <a href="#"><i style="margin-right:8px" class="fa fa-user" aria-hidden="true"></i>Categories</a>
+    </li>
+    <li class="hvr-fade">
+      <a href="#"><i style="margin-right:8px" class="fa fa-calendar" aria-hidden="true"></i>Attributes</a>
+    </li>
+    <li class="hvr-fade" onclick="showMain()">
+      <a href="#"><i style="margin-right:8px" class="fa fa-calendar" aria-hidden="true"></i>Main Menu</a>
+    </li>
+
+
+  </ul>
+
+
+
+</div>
+<!-- /#sidebar-wrapper -->

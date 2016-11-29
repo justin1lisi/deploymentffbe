@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
+
+
+
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.fa-lg {
+  color:white;
+}
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+.greyItem {
+  background-color:#9e9999 !important;
+}
+
+.portImage {
+  width:200px;
+  height:242px;
+}
+
+#descTest {
+  font-size:1.2em;
+}
+
+#proImage {
+  border:1px solid white;
+  border-radius:50px;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+
+  color:#fff !important;
+  font-size:1.2em;
+  font-weight:bold;
+
+}
+
+@media (min-width: 768px){
+  .navbar-nav{
+    margin: 0 auto !important;
+    display: table !important;
+    table-layout: fixed !important;
+    float:none !important;
+  }
+}
+
+.navbar-default .navbar-brand {
+  color:#fff !important;
+  font-size:1.2em;
+  font-weight:bold;
+}
+.navbar-default .navbar-brand:hover {
+  color:white !important;
+  font-size:1.2em;
+  font-weight:bold;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover {
+  color:#f58e1f !important;
+}
+
+.navbar-default {
+  background: rgba(0,0,0,0.4);
+}
+
+/* additional sections */
+#home {
+  background: url(../images/top1-1.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.welcomeMessage {
+  color:white;
+  margin-bottom:400px;
+  opacity:.75;
+
+}
+
+
+
+
+.portfolioImage {
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.thumbnail {
+  /*border:20px solid white !important;*/ /* or whatever */
+}
+
+#services {
+  background-color: #444f6b;
+  color: #ffffff;
+}
+
+#contactMe {
+  background-color: #463e4a;
+  color: #ffffff;
+}
+
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#information {
+  background: url(../images/estate.jpg) no-repeat center center fixed;
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#information .panel {
+  opacity: 0.85;
+}
+
+#google_map {
+  height: 500px;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: #463E4A;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+
+.footerText {
+  color:white;
+}

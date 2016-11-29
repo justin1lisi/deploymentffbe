@@ -1,0 +1,268 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family: Lato;
+}
+
+.testModal {
+  background-color: #3F454A !important;
+  color: #fff !important;
+
+}
+
+.nav-tabs > li > a{
+  color: #fff;
+}
+
+.btn-add {
+  color: #ffffff;
+  background-color: #F58E1F;
+  border-color: #F69935;
+}
+
+.btn-add:hover,
+.btn-add:focus,
+.btn-add:active,
+.btn-add.active,
+.open .dropdown-toggle.btn-add {
+  color: #ffffff;
+  background-color: #F69935;
+  border-color: #F69935;
+}
+
+.btn-add:active,
+.btn-add.active,
+.open .dropdown-toggle.btn-add {
+  background-image: none;
+}
+
+.btn-add.disabled,
+.btn-add[disabled],
+fieldset[disabled] .btn-add,
+.btn-add.disabled:hover,
+.btn-add[disabled]:hover,
+fieldset[disabled] .btn-add:hover,
+.btn-add.disabled:focus,
+.btn-add[disabled]:focus,
+fieldset[disabled] .btn-add:focus,
+.btn-add.disabled:active,
+.btn-add[disabled]:active,
+fieldset[disabled] .btn-add:active,
+.btn-add.disabled.active,
+.btn-add[disabled].active,
+fieldset[disabled] .btn-add.active {
+  background-color: #F58E1F;
+  border-color: #F58E1F;
+}
+
+.btn-add .badge {
+  color: #F58E1F;
+  background-color: #F69935;
+}
+
+
+.btn-action {
+  color: #ffffff;
+  background-color: #656A6E;
+  border-color: #656A6E;
+}
+
+.btn-action:hover,
+.btn-action:focus,
+.btn-action:active,
+.btn-action.active,
+.open .dropdown-toggle.btn-action {
+  color: #ffffff;
+  background-color: #787C80;
+  border-color: #787C80;
+}
+
+.btn-action:active,
+.btn-action.active,
+.open .dropdown-toggle.btn-action {
+  background-image: none;
+}
+
+.btn-action.disabled,
+.btn-action[disabled],
+fieldset[disabled] .btn-action,
+.btn-action.disabled:hover,
+.btn-action[disabled]:hover,
+fieldset[disabled] .btn-action:hover,
+.btn-action.disabled:focus,
+.btn-action[disabled]:focus,
+fieldset[disabled] .btn-action:focus,
+.btn-action.disabled:active,
+.btn-action[disabled]:active,
+fieldset[disabled] .btn-action:active,
+.btn-action.disabled.active,
+.btn-action[disabled].active,
+fieldset[disabled] .btn-action.active {
+  background-color: #656A6E;
+  border-color: #656A6E;
+}
+
+.btn-action .badge {
+  color: #656A6E;
+  background-color: #ffffff;
+}
+
+.btn-action2 {
+  color: #ffffff !important;
+  background-color: #787C80 !important;
+  border-color: #787C80 !important;
+}
+
+.btn-action2:hover,
+.btn-action2:focus,
+.btn-action2:active,
+.btn-action2.active,
+.open .dropdown-toggle.btn-action2 {
+  color: #ffffff !important;
+  background-color: #b2b5b7 !important;
+  border-color: #b2b5b7 !important;
+}
+
+.btn-action2:active,
+.btn-action2.active,
+.open .dropdown-toggle.btn-action2 {
+  background-image: none !important;
+}
+
+.btn-action2.disabled,
+.btn-action2[disabled],
+fieldset[disabled] .btn-action2,
+.btn-action2.disabled:hover,
+.btn-action2[disabled]:hover,
+fieldset[disabled] .btn-action2:hover,
+.btn-action2.disabled:focus,
+.btn-action2[disabled]:focus,
+fieldset[disabled] .btn-action2:focus,
+.btn-action2.disabled:active,
+.btn-action2[disabled]:active,
+fieldset[disabled] .btn-action2:active,
+.btn-action2.disabled.active,
+.btn-action2[disabled].active,
+fieldset[disabled] .btn-action.active2 {
+  background-color: #787C80 !important;
+  border-color: #787C80 !important;
+}
+
+.btn-blue .badge {
+  color: #787C80;
+  background-color: #ffffff;
+}
+
+.btn-blue {
+  color: #ffffff;
+  background-color: #2f80c2;
+  border-color: #2f80c2;
+}
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active,
+.btn-blue.active,
+.open .dropdown-toggle.btn-blue {
+  color: #ffffff;
+  background-color: #539dd6;
+  border-color: #539dd6;
+}
+
+.btn-blue:active,
+.btn-action2.active,
+.open .dropdown-toggle.btn-blue {
+  background-image: none;
+}
+
+.btn-blue.disabled,
+.btn-blue[disabled],
+fieldset[disabled] .btn-blue,
+.btn-blue.disabled:hover,
+.btn-blue[disabled]:hover,
+fieldset[disabled] .btn-blue:hover,
+.btn-blue.disabled:focus,
+.btn-blue[disabled]:focus,
+fieldset[disabled] .btn-blue:focus,
+.btn-blue.disabled:active,
+.btn-blue[disabled]:active,
+fieldset[disabled] .btn-blue:active,
+.btn-blue.disabled.active,
+.btn-blue[disabled].active,
+fieldset[disabled] .btn-action.blue {
+  background-color: #2f80c2;
+  border-color: #2f80c2;
+}
+
+.btn-blue .badge {
+  color: #2f80c2;
+  background-color: #ffffff;
+}
+
+
+.btn-delete {
+  color: #ffffff;
+  background-color: #e03c1b;
+  border-color: #e03c1b;
+}
+
+.btn-delete:hover,
+.btn-delete:focus,
+.btn-delete:active,
+.btn-delete.active,
+.open .dropdown-toggle.btn-delete {
+  color: #ffffff;
+  background-color: #e34f31;
+  border-color: #e34f31;
+}
+
+.btn-delete:active,
+.btn-delete.active,
+.open .dropdown-toggle.btn-delete {
+  background-image: none;
+}
+
+.btn-delete.disabled,
+.btn-delete[disabled],
+fieldset[disabled] .btn-delete,
+.btn-delete.disabled:hover,
+.btn-delete[disabled]:hover,
+fieldset[disabled] .btn-delete:hover,
+.btn-delete.disabled:focus,
+.btn-delete[disabled]:focus,
+fieldset[disabled] .btn-delete:focus,
+.btn-action2.disabled:active,
+.btn-action2[disabled]:active,
+fieldset[disabled] .btn-action2:active,
+.btn-action2.disabled.active,
+.btn-action2[disabled].active,
+fieldset[disabled] .btn-action.active2 {
+  background-color: #e03c1b;
+  border-color: #e03c1b;
+}
+
+
+
+/*body {*/
+  /*font-family: Lato;*/
+/*}*/
+
+
+
+a {
+  color:#222;
+}
+
+a:hover{
+  color:#2e2e2e;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{
+  color: #222;
+  background-color: #F1F1F1;
+}
+
+
+
